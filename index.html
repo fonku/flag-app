@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>旗更新</title>
+</head>
+<body>
+  <h2>運動場の旗更新</h2>
+  <form action="/update" method="get">
+    <input type="password" name="pw" placeholder="パスワード" required>
+    <button type="submit" name="flag" value="red">赤旗 🚫</button>
+    <button type="submit" name="flag" value="yellow">黄旗 ⚠️</button>
+    <button type="submit" name="flag" value="none">なし ✅</button>
+  </form>
+
+  <h3><a href="/view" target="_blank">最新の旗の状態を見る</a></h3>
+  <h3><a href="/download" target="_blank">履歴をCSVでダウンロード</a></h3>
+</body>
+</html>
